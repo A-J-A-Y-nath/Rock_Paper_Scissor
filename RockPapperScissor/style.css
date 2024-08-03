@@ -1,0 +1,31 @@
+.bt{
+    margin-left: 30px;
+    padding: 15px;
+    color:rgb(213, 39, 39);
+    font-family: Silkscreen;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#heading{
+    position: relative;
+    margin-left: 30px;
+    background: -webkit-linear-gradient(rgb(16, 209, 183),rgb(210, 213, 32));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Rock{
+    background-image: linear-gradient(rgba(126, 125, 125, 0.251),rgb(119, 118, 118));
+}
+#Paper{
+    background-color: whitesmoke;
+}
+#Scissor{
+    background-image: linear-gradient(rgb(69, 119, 69),rgba(53, 231, 53, 0.679));
+}
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.MsrDcBRDcvVNnlD9paRhfAHaEK?rs=1&pid=ImgDetMain");
+}
+.bt:active{
+    color: rgb(79, 62, 207);
+}
+
