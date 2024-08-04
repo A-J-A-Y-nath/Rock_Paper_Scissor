@@ -28,4 +28,16 @@ body {
 .bt:active{
     color: rgb(79, 62, 207);
 }
+.myTable{
+    font-size: larger;
+    color: rgb(242, 123, 63);
+    margin-top: 58px;
+    margin-left: 10px;
+    border-color: rgb(27, 109, 38);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+    
+}

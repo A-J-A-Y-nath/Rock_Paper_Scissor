@@ -1,5 +1,15 @@
 var c_point=0,u_point=0,point;
+var Yname=prompt("Enter your name please...");
+if(Yname==null || Yname==''){
+   Yname="User";
+}
+var Cname=prompt("If you dont mind suggest a name to computer");
+if(Cname==null || Cname==''){
+    Cname="Computer";
+ }
 point=prompt("Upto How Much Marks You Want To Play:");
+document.getElementById("userName").innerText=Yname;
+document.getElementById("computerName").innerText=Cname;
 function game(word){
     let ar=["Rock","Paper","Scissor"];
     var i=Math.floor(Math.random()*3);
@@ -43,7 +53,7 @@ function game(word){
             u_point++
         }
     }
-
+    
     if(u_point==point){
         document.writeln("Congratulations You Won!")
     }
@@ -51,5 +61,7 @@ function game(word){
         document.writeln("You failed")
         alert("Your score is "+u_point)
     }
-
+    
+    document.getElementById("userPoint").innerText=u_point;
+    document.getElementById("computerPoint").innerText=c_point;
 }
