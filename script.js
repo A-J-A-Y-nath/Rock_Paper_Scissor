@@ -16,7 +16,7 @@ function game(word){
     if(word=="Rock"){
         if(word==ar[i]){
             alert("I choose "+ar[i]+"! Tie")
-        }
+        } 
         else if(ar[i]=="Paper"){
             alert("I choose "+ar[i]+"! I win");
             c_point++;
